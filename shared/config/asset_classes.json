@@ -1,0 +1,37 @@
+{
+  "precious_metals": {
+    "label": "Precious Metals",
+    "assets": ["gold", "silver", "platinum", "palladium"],
+    "liquidity": "high"
+  },
+  "industrial_metals": {
+    "label": "Industrial Metals",
+    "assets": ["industrial_metals"],
+    "liquidity": "medium"
+  },
+  "sovereign_debt": {
+    "label": "Sovereign Debt",
+    "assets": ["sovereign_debt"],
+    "liquidity": "high"
+  },
+  "corporate_credit": {
+    "label": "Corporate Credit",
+    "assets": ["corporate_bonds", "private_credit_mid_market"],
+    "liquidity": "low"
+  },
+  "structured_credit": {
+    "label": "Structured Credit",
+    "assets": ["asset_backed_securities", "mortgage_backed_securities"],
+    "liquidity": "medium"
+  },
+  "real_assets": {
+    "label": "Real Assets",
+    "assets": ["commercial_real_estate", "infrastructure"],
+    "liquidity": "low"
+  },
+  "alt_financing": {
+    "label": "Alternative Financing",
+    "assets": ["revenue_based_financing"],
+    "liquidity": "medium"
+  }
+}

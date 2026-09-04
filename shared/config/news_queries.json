@@ -1,0 +1,9 @@
+{
+  "precious_metals": "gold silver price",
+  "industrial_metals": "industrial metals copper aluminum",
+  "sovereign_debt": "sovereign bond yields",
+  "corporate_credit": "corporate bond market private credit",
+  "structured_credit": "\"mortgage backed securities\" OR \"asset backed securities\"",
+  "real_assets": "commercial real estate infrastructure investment",
+  "alt_financing": "revenue based financing"
+}
