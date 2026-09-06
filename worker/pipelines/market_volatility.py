@@ -1,5 +1,11 @@
 import yfinance as yf
 
+def label_real_drawdowns(ticker, threshold=-0.15, window_days=30):
+    data = yf.download(ticker, period="2y", interval="1d")["Close"]
+    future_return = data.shift(-window_days) / data - 1
+    drawdown_occurred = (future_return < threshold).astype(int)
+    return drawdown_occurred
+
 CATEGORY_TICKERS = {
     "precious_metals": ["GLD", "SLV", "PPLT", "PALL"],
     "industrial_metals": ["DBB", "COPX"],
